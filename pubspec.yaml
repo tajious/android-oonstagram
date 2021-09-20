@@ -1,0 +1,29 @@
+name: oonstagram
+description: Instagram alternative
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  flutter_icons: ^1.1.0
+  hive: ^1.4.4+1
+  hive_flutter: ^0.3.1
+  http: ^0.12.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^0.8.2
+  build_runner: ^1.10.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/stories/
